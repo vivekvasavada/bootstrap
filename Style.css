@@ -1,2 +1,27 @@
-﻿body {
+﻿#logo {
+    width:200px;
+}
+div.page-header {
+    margin-top: 200px;
+    background-color: #E8D6CF;
+    padding-top: 3px;
+    margin-bottom: 0px;
+}
+/*Nav Bar Styling*/
+nav#navvy.navbar.navbar-static-top {
+    margin-bottom: 0px;
+    background-color: #6A1525;
+    color: #FFF6F0;
+}
+#navvy a {
+ color: #FFF6F0;
+}
+
+#navvy a::after hover{
+    background:none;
+}
+/*Trailer*/
+.mainSec {
+    background-image:url('Images/junkyard.jpg');
+    background-size:cover;
 }
